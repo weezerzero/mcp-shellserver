@@ -35,7 +35,7 @@ Do not pipe extra data to stdout from the server process; MCP uses stdout for JS
 
 The tool returns a single text block containing `exit_code`, `stdout`, and `stderr`. If the command exceeds the timeout, the process is terminated and the response indicates a timeout.
 
-## Connecting a client (example)
+## Connecting a client (example of running locally)
 
 Point your MCP host at `uv` with this project as the working directory. Example configuration shape:
 
